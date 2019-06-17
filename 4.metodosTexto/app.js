@@ -17,7 +17,7 @@ console.log(`El texto \'archivos\' se encuentra en la posisicion ${texto.indexOf
 //extrar parte de un texto desde una posicion y un numero de caracteres
 console.log('Extraer desde la posicion 3 hasta el caracter 20: ' + texto.substring(3,20));
 
-//extrar de dercha a izquierda
+//extrar de derecha a izquierda
 console.log('Extraer 20 caracteres desde el final hacia el principio principio: ' +texto.slice(-20));
 
 //Dividir una cadena de texto en varias cadenas
@@ -32,5 +32,9 @@ console.log(contenido);
 
 //Buscar un texto, frase o porcion de texto y retornar true o false
 console.log(`La palabra \'Modulo\' existe en el texto: \'${contenido}\' resultado: ${contenido.includes('Modulo')}`);
+
+//Repetir un texto una determinada cantidad de veces
+console.log(`Utilizando el metodo repeat: ${contenido.repeat(10)}`);
+
 
 
